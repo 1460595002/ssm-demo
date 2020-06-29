@@ -22,6 +22,3 @@ create table account(
 
 此项目是对Spring、Springmvc、Mybatis的整合。笔记来自黑马程序员：
 
- [ssm整合【大纲笔记】.pdf](笔记\ssm整合[大纲笔记].pdf) 
-
- [ssm整合【随堂笔记】.pdf](笔记\ssm整合[随堂笔记].pdf) 
