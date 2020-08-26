@@ -17,6 +17,7 @@
 
     <c:forEach items="${list}" var="account">
         ${account.name}
+        ${account.money}
     </c:forEach>
 
 

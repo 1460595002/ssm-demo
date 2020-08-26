@@ -27,6 +27,13 @@
     <mvc:resources location="/js/" mapping="/js/**" />
 
     <!--开启SpringMVC注解的支持-->
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven >
+<!--        json配置生效-->
+        <mvc:message-converters register-defaults="true">
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes" value="text/plain;charset=UTF-8" />
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
 
 </beans>
